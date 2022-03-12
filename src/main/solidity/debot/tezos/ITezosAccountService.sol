@@ -25,3 +25,7 @@ interface ITezosAccountServiceCall {
 interface ITezosAccountServiceRun {
     function run(TezosLibrary.Account request) external;
 }
+
+interface ITezosAccountServiceUpdate {
+    function update(TezosLibrary.Account account) external;
+}
