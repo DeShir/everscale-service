@@ -12,7 +12,6 @@ interface ITezosAccountServiceMenuItem {
     struct MenuItem {
         string title;
         string description;
-        uint order;
     }
 
     function menuItem(TezosLibrary.Account request) external responsible returns(MenuItem);
