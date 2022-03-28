@@ -1,5 +1,5 @@
 # Service Interfaces
 
 ## Description
-This repository contain that can be used for any functionality.
+This repository contains interfaces that can be used for any functionality.
 
